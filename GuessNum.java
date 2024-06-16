@@ -1,16 +1,12 @@
 import java.util.*;
-//import java.util.Scanner; we have randon class in java util package
-
 public class GuessingNum {
 
   public static void main(String[] args) {
     Random rand = new Random();
-    int numberToGuess = rand.nextInt(100) + 1;//here nextInt() is a method in a random class it genrates a random number between 0-99 
+    int numberToGuess = rand.nextInt(100) + 1;
 	System.out.println("Guessed  number :\t"+numberToGuess);
-	
-
     Scanner scanner = new Scanner(System.in);
-    int maxTries = 15; // Maximum allowed tries (optional)
+    int maxTries = 15; 
     int tries = 0;
 
     while (tries < maxTries) {

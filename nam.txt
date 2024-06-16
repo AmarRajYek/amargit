@@ -1,2 +1,7 @@
+<<<<<<< Updated upstream
  jai Sree ram 
  Amar Raj
+=======
+  Amar Raj Yekbote
+  Amrutha Rani Yekbote
+>>>>>>> Stashed changes
